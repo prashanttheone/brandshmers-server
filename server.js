@@ -9,7 +9,7 @@ const dbConnect = require('./config/database');
 
 
 app.use(cors({
-  origin: "*",
+  origin: "https://brandsmashers-weld.vercel.app/contact",
   credentials: true
 }));
 
